@@ -1,2 +1,30 @@
-
-/* Your CSS Code here. */
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100vh;
+}
+#container{
+	width: 450px;
+	height: 650px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	margin: 50px auto;
+	box-shadow: 10px 10px 100px grey;
+	border: none;
+}
+#input{
+	grid-column: 1/-1;
+	border: none;
+}
+button{
+	background-color: white;
+	border: 1px solid grey;
+	font-size: 25px
+}
+#result{
+	background-color: #5555ff;
+	color: white;
+}
